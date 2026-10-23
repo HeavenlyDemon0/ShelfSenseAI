@@ -1,0 +1,28 @@
+[
+  {
+    "iteration": 2,
+    "name": "shelfsense_final_unified_yolo11n",
+    "weights": "D:\\Shelfsense-ai\\results\\shelfsense_final_unified_yolo11n\\weights\\best.pt",
+    "precision": 0.8883,
+    "recall": 0.8451,
+    "map50": 0.9009,
+    "map50_95": 0.6266,
+    "repeatability": 89.29,
+    "mean_iou": 0.8825,
+    "flip_rate": 0.0,
+    "conf_std": 0.0398
+  },
+  {
+    "iteration": 3,
+    "name": "shelfsense_iter3_optimized",
+    "weights": "D:\\Shelfsense-ai\\results\\shelfsense_iter3_optimized\\weights\\best.pt",
+    "precision": 0.8846,
+    "recall": 0.805,
+    "map50": 0.8935,
+    "map50_95": 0.6313,
+    "repeatability": 89.3,
+    "mean_iou": 0.8699,
+    "flip_rate": 0.0,
+    "conf_std": 0.0384
+  }
+]

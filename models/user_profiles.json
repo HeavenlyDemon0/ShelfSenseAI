@@ -1,0 +1,17 @@
+{
+  "operator@supermarket.com": {
+    "email": "operator@supermarket.com",
+    "full_name": "Enterprise Operator",
+    "role": "admin"
+  },
+  "nishantrao181@gmail.com": {
+    "email": "nishantrao181@gmail.com",
+    "full_name": "Nishant Rao",
+    "role": "admin"
+  },
+  "kingofhellzoro2007@gmail.com": {
+    "email": "kingofhellzoro2007@gmail.com",
+    "full_name": "Zoro Roronoa",
+    "role": "staff"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "model": "best.pt",
+  "mean_count": 7.0,
+  "std_count": 0.0,
+  "consistency_pct": 100.0,
+  "mean_latency_ms": 197.9
+}

@@ -1,0 +1,3 @@
+"""
+ShelfSense Backend Package
+"""

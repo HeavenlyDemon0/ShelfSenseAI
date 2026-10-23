@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "saved_at": "2026-10-23T22:27:34.770331",
+  "products": {
+    "PepsiTest": {
+      "sku_name": "PepsiTest",
+      "category": "Beverages",
+      "designated_zone": "Top-Right Deck",
+      "reorder_threshold": 4,
+      "threshold": 0.65,
+      "total_observations": 1320,
+      "self_training_updates": 132,
+      "prototype_drift": 0.7634,
+      "enrolled_at": "2026-10-23T00:33:14.492897",
+      "last_seen_at": "2026-10-23T22:27:34.688858"
+    },
+    "Pepsi Max Can": {
+      "sku_name": "Pepsi Max Can",
+      "category": "Beverages",
+      "designated_zone": "Top-Right Deck",
+      "reorder_threshold": 4,
+      "threshold": 0.88,
+      "total_observations": 0,
+      "self_training_updates": 0,
+      "prototype_drift": 0.0,
+      "enrolled_at": "2026-10-23T19:30:10.198082",
+      "last_seen_at": null
+    }
+  }
+}

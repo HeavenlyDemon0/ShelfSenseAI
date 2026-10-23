@@ -1,0 +1,72 @@
+{
+  "model_architecture": "ShelfSenseReplenishmentNet (Multi-Task Residual MLP)",
+  "framework": "PyTorch 2.12.1+cu132",
+  "device": "cuda",
+  "trained_at": "2026-10-23 00:08:49",
+  "training_time_seconds": 54.1,
+  "epochs_trained": 35,
+  "metrics": {
+    "velocity_r2": 0.8674,
+    "velocity_mae": 0.4359,
+    "runout_mae_minutes": 18.27,
+    "stockout_roc_auc": 0.9935,
+    "urgency_score_mae": 2.22,
+    "priority_rank_correlation": 0.9917
+  },
+  "scaler": {
+    "columns": [
+      "hour_sin",
+      "hour_cos",
+      "is_weekend",
+      "is_rush_hour",
+      "current_stock",
+      "max_capacity",
+      "stock_ratio",
+      "reorder_threshold",
+      "depletion_deficit",
+      "consumption_vel_15m",
+      "consumption_vel_1h",
+      "consumption_vel_24h",
+      "velocity_acceleration",
+      "observation_confidence"
+    ],
+    "mean": [
+      -0.001801924780011177,
+      0.0018850733758881688,
+      0.28558000922203064,
+      0.2895599901676178,
+      5.340539932250977,
+      13.015520095825195,
+      0.41225987672805786,
+      3.5127999782562256,
+      0.7897599935531616,
+      2.193120002746582,
+      2.2000598907470703,
+      1.9860297441482544,
+      -0.006940000224858522,
+      0.8605509400367737
+    ],
+    "std": [
+      0.7058426141738892,
+      0.7084330916404724,
+      0.45176512002944946,
+      0.4536353051662445,
+      4.204258441925049,
+      2.2338521480560303,
+      0.312528520822525,
+      1.189726710319519,
+      1.3416128158569336,
+      3.5395612716674805,
+      2.4385926723480225,
+      1.698336124420166,
+      3.3087148666381836,
+      0.10964228212833405
+    ]
+  },
+  "sku_mapping": {
+    "CocaCola": 0,
+    "KitKat": 1,
+    "Lays": 2,
+    "Oreo": 3
+  }
+}
